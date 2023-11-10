@@ -1,7 +1,5 @@
 package com.yovvis.utils;
 
-import org.apache.commons.lang3.StringUtils;
-
 /**
  * SQL 工具
  *

@@ -1,5 +1,6 @@
 package com.yovvis.utils;
 
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -7,6 +8,7 @@ import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 
 public class FileUtils {
+    public static final String DEFAULT_DOWNLOAD_PATH = "";
     /**
      * 递归拷贝文件（目录完整拷贝）
      *
@@ -45,7 +47,7 @@ public class FileUtils {
             // 获取源目录下一层所有文件
             File[] files = inputFile.listFiles();
             // 没有文件直接结束了
-            if (CollectionUtils.isEmpty(files)) {
+            if (ArrayUtils.isEmpty(files)) {
                 return;
             }
             for (File file : files) {
