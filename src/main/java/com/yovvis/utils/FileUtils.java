@@ -7,6 +7,11 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 
+/**
+ * 文件工具类
+ *
+ * @author yovvis
+ */
 public class FileUtils {
     public static final String DEFAULT_DOWNLOAD_PATH = "";
     /**

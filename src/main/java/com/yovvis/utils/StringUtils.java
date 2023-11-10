@@ -3,7 +3,7 @@ package com.yovvis.utils;
 import com.yovvis.function.ToBooleanBiFunction;
 
 /**
- * 字符串工具类
+ * <origin：lang3>
  *
  * @author yovvis
  */

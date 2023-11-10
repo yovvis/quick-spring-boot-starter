@@ -3,6 +3,7 @@ package com.yovvis.constvalue;
 /**
  * 文件常量
  *
+ * @author yovvis
  */
 public interface FileConstant {
 

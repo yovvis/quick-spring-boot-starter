@@ -3,7 +3,7 @@ package com.yovvis.constvalue;
 /**
  * 常用常量
  *
- * @author
+ * @author yovvis
  */
 public interface CommonConstant {
     /**

@@ -3,6 +3,7 @@ package com.yovvis.constvalue;
 /**
  * 用户常量
  *
+ * @author yovvis
  */
 public interface UserConstant {
 

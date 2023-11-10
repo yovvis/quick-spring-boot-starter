@@ -1,6 +1,8 @@
 package com.yovvis.function;
 
 /**
+ * <origin：lang3>
+ *
  * @author yovvis
  */
 @FunctionalInterface

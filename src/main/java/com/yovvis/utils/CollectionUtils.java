@@ -5,6 +5,8 @@ import java.util.Enumeration;
 import java.util.Iterator;
 
 /**
+ * 集合工具类
+ *
  * @author yovvis
  */
 public class CollectionUtils {

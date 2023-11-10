@@ -1,9 +1,9 @@
 package com.yovvis.utils;
 
 /**
+ * web工具类
+ *
  * @author yovvis
- * @Description [web工具类]
- * @date 2023/10/3 15:49
  */
 public class WebUtils {
     // 字符串转成数字

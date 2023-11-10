@@ -1,8 +1,9 @@
 package com.yovvis.utils;
 
 /**
- * SQL 工具
+ * sql 工具类
  *
+ * @author yovvis
  */
 public class SqlUtils {
 

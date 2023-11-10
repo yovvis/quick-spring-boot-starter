@@ -1,6 +1,8 @@
 package com.yovvis.utils;
 
 /**
+ * <origin：lang3>
+ *
  * @author yovvis
  */
 public class CharSequenceUtils {
