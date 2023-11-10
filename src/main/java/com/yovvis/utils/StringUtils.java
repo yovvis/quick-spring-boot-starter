@@ -1,7 +1,5 @@
 package com.yovvis.utils;
 
-import org.apache.commons.lang3.ArrayUtils;
-
 /**
  * 字符串工具类
  *
@@ -46,7 +44,7 @@ public class StringUtils {
     }
 
     public static boolean isAllBlank(CharSequence... css) {
-        if (ArrayUtils.isEmpty(css)) {
+        if (CollectionUtils.isEmpty(css)) {
             return true;
         } else {
             CharSequence[] var1 = css;
