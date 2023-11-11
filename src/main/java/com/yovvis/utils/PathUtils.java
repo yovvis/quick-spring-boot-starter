@@ -28,9 +28,18 @@ public class PathUtils {
      * @return
      */
     public static String getClassesPath() {
-        URL path = Thread.currentThread().getContextClassLoader().getResource("");
-        //.getPath();
-        return path.getPath();
+        return getClassUrl("").getPath();
+    }
+
+    /**
+     * urlPath一般是包名
+     *
+     * @param urlPath
+     * @return
+     */
+    public static URL getClassUrl(String urlPath) {
+        URL url = Thread.currentThread().getContextClassLoader().getResource(urlPath);
+        return url;
     }
 
     /**
