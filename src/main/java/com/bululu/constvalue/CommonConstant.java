@@ -1,4 +1,4 @@
-package com.yovvis.constvalue;
+package com.bululu.constvalue;
 
 /**
  * 常用常量

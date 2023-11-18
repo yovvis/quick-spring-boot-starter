@@ -1,4 +1,4 @@
-package com.yovvis.utils;
+package com.bululu.utils;
 
 import java.util.Collection;
 import java.util.Enumeration;

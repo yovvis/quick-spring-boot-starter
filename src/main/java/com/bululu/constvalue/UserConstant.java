@@ -1,4 +1,4 @@
-package com.yovvis.constvalue;
+package com.bululu.constvalue;
 
 /**
  * 用户常量

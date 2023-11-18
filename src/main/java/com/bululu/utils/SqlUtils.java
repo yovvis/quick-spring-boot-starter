@@ -1,4 +1,4 @@
-package com.yovvis.utils;
+package com.bululu.utils;
 
 /**
  * sql 工具类

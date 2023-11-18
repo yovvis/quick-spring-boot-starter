@@ -1,6 +1,6 @@
-package com.yovvis.utils;
+package com.bululu.utils;
 
-import com.yovvis.function.ToBooleanBiFunction;
+import com.bululu.function.ToBooleanBiFunction;
 
 /**
  * <origin：lang3>
