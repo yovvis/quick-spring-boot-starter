@@ -1,5 +1,5 @@
-# yovvis-tools
-整合 java 开发过程中常用工具类。
+# bululu-core-sdk
+布鲁鲁核心sdk
 ## 提交规范
  - [ ] feat: 新功能、新特性
  - [ ] fix: 修改 bug
