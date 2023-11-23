@@ -1,4 +1,4 @@
-package com.bululu.function;
+package com.yovvis.function;
 
 /**
  * <origin：lang3>

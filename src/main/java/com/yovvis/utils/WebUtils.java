@@ -1,4 +1,4 @@
-package com.bululu.utils;
+package com.yovvis.utils;
 
 /**
  * web工具类

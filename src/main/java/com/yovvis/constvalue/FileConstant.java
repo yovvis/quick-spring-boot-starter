@@ -1,4 +1,4 @@
-package com.bululu.constvalue;
+package com.yovvis.constvalue;
 
 /**
  * 文件常量

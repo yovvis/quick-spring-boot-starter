@@ -1,4 +1,4 @@
-package com.bululu.config;
+package com.yovvis.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

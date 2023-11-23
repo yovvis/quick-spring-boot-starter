@@ -10,9 +10,9 @@
     </parent>
 
     <groupId>com.yovvis</groupId>
-    <artifactId>bululu-core-sdk</artifactId>
-    <version>1.0-RELEASE</version>
-    <name>bululu-core-sdk</name>
+    <artifactId>yovvis-core-sdk</artifactId>
+    <version>1.0</version>
+    <name>yovvis-core-sdk</name>
     <description>布鲁鲁核心工具库(SDK)</description>
 
     <properties>
