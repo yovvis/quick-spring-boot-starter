@@ -13,7 +13,7 @@
     <artifactId>yovvis-core-sdk</artifactId>
     <version>1.0</version>
     <name>yovvis-core-sdk</name>
-    <description>布鲁鲁核心工具库(SDK)</description>
+    <description>yovvis开发核心工具库(SDK)</description>
 
     <properties>
         <java.verson>1.8</java.verson>
