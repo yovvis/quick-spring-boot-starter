@@ -17,6 +17,7 @@
 
     <properties>
         <java.verson>1.8</java.verson>
+        <assembly>src/main/resources/assembly.xml</assembly>
     </properties>
 
     <dependencies>
@@ -52,12 +53,12 @@
 <!--                <artifactId>maven-assembly-plugin</artifactId>-->
 <!--                <version>3.3.0</version>-->
 <!--                <configuration>-->
-<!--                    <descriptorRefs>-->
-<!--                        <descriptorRef>jar-with-dependencies</descriptorRef>-->
-<!--                    </descriptorRefs>-->
+<!--&lt;!&ndash;                    <descriptorRefs>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <descriptorRef>jar-with-dependencies</descriptorRef>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </descriptorRefs>&ndash;&gt;-->
 <!--                    <archive>-->
 <!--                        <manifest>-->
-<!--                            <mainClass>com.yupi.Main</mainClass> &lt;!&ndash; 替换为你的主类的完整类名 &ndash;&gt;-->
+<!--                            <mainClass>com.yovvis.Main</mainClass> &lt;!&ndash; 替换为你的主类的完整类名 &ndash;&gt;-->
 <!--                        </manifest>-->
 <!--                    </archive>-->
 <!--                </configuration>-->
@@ -67,6 +68,12 @@
 <!--                        <goals>-->
 <!--                            <goal>single</goal>-->
 <!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            &lt;!&ndash; assembly.xml &ndash;&gt;-->
+<!--                            <descriptors>-->
+<!--                                <descriptor>${assembly}</descriptor>-->
+<!--                            </descriptors>-->
+<!--                        </configuration>-->
 <!--                    </execution>-->
 <!--                </executions>-->
 <!--            </plugin>-->
