@@ -38,11 +38,11 @@ public class StringUtils {
         if (ArrayUtils.isEmpty(strArray)) {
             return true;
         } else {
-            CharSequence[] var1 = strArray;
-            int var2 = strArray.length;
+            CharSequence[] c1 = strArray;
+            int len = strArray.length;
 
-            for (int var3 = 0; var3 < var2; ++var3) {
-                CharSequence cs = var1[var3];
+            for (int i = 0; i < len; ++i) {
+                CharSequence cs = c1[i];
                 if (isNotBlank(cs)) {
                     return false;
                 }
@@ -56,11 +56,11 @@ public class StringUtils {
         if (ArrayUtils.isEmpty(css)) {
             return true;
         } else {
-            CharSequence[] var1 = css;
-            int var2 = css.length;
+            CharSequence[] var = css;
+            int len = css.length;
 
-            for (int var3 = 0; var3 < var2; ++var3) {
-                CharSequence cs = var1[var3];
+            for (int i = 0; i < len; ++i) {
+                CharSequence cs = var[i];
                 if (isNotBlank(cs)) {
                     return false;
                 }
@@ -129,11 +129,11 @@ public class StringUtils {
 
     private static boolean containsAny(ToBooleanBiFunction<CharSequence, CharSequence> test, CharSequence cs, CharSequence... searchCharSequences) {
         if (!isEmpty(cs) && !ArrayUtils.isEmpty(searchCharSequences)) {
-            CharSequence[] var3 = searchCharSequences;
-            int var4 = searchCharSequences.length;
+            CharSequence[] csq = searchCharSequences;
+            int len = searchCharSequences.length;
 
-            for (int var5 = 0; var5 < var4; ++var5) {
-                CharSequence searchCharSequence = var3[var5];
+            for (int i = 0; i < len; ++i) {
+                CharSequence searchCharSequence = csq[i];
                 if (test.applyAsBoolean(cs, searchCharSequence)) {
                     return true;
                 }

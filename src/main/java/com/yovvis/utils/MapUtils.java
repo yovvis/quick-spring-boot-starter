@@ -8,6 +8,9 @@ import java.util.Map;
  * @author yovvis
  */
 public class MapUtils {
+    public MapUtils() {
+    }
+
     public static boolean isEmpty(Map<?, ?> map) {
         return null == map || map.isEmpty();
     }

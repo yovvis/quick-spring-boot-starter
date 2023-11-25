@@ -6,6 +6,9 @@ package com.yovvis.utils;
  * @author yovvis
  */
 public class WebUtils {
+    public WebUtils() {
+    }
+
     // 字符串转成数字
     public static int parseInt(String numStr, int defaultVal) {
         try {

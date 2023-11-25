@@ -9,6 +9,9 @@ import java.text.DecimalFormat;
  * @author yovvis
  */
 public class BigDecimalUtils {
+    public BigDecimalUtils() {
+    }
+
     private static DecimalFormat df = new DecimalFormat("##.0");
 
     public static String format(Double num) {

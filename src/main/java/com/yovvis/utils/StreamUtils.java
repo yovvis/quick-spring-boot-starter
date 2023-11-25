@@ -8,6 +8,8 @@ import java.io.*;
  * @author yovvis
  */
 public class StreamUtils {
+    public StreamUtils() {
+    }
 
     /**
      * 读取字节信息，存放到byte[]

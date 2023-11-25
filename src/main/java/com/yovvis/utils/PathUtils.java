@@ -1,9 +1,16 @@
 package com.yovvis.utils;
 
 import java.io.File;
+import java.io.FileFilter;
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.net.URLDecoder;
+import java.nio.file.*;
+import java.nio.file.attribute.BasicFileAttributes;
+import java.util.ArrayList;
+import java.util.EnumSet;
+import java.util.List;
 
 /**
  * 路径工具类
@@ -12,6 +19,9 @@ import java.net.URLDecoder;
  */
 public class PathUtils {
     public static final String CONFIG_FOLDER = "config";
+
+    public PathUtils() {
+    }
 
     /**
      * 获取java运行时的环境
@@ -106,4 +116,18 @@ public class PathUtils {
         }
         return null;
     }
+
+    public static boolean isDirectory(Path path) {
+        return isDirectory(path, false);
+    }
+
+    public static boolean isDirectory(Path path, boolean isFollowLinks) {
+        if (null == path) {
+            return false;
+        } else {
+            LinkOption[] options = isFollowLinks ? new LinkOption[0] : new LinkOption[]{LinkOption.NOFOLLOW_LINKS};
+            return Files.isDirectory(path, options);
+        }
+    }
+
 }

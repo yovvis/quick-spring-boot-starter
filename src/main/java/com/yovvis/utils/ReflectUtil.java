@@ -7,4 +7,6 @@ package com.yovvis.utils;
  * @date 2023/11/23
  */
 public class ReflectUtil {
+    public ReflectUtil() {
+    }
 }

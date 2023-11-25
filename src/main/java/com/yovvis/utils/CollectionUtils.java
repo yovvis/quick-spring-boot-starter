@@ -10,6 +10,8 @@ import java.util.Iterator;
  * @author yovvis
  */
 public class CollectionUtils {
+    public CollectionUtils() {
+    }
 
     public static boolean isEmpty(Collection<?> collection) {
         return collection == null || collection.isEmpty();

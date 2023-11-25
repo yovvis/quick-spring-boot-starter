@@ -8,6 +8,10 @@ import java.lang.reflect.Array;
  * @author yovvis
  */
 public class ArrayUtils {
+
+    public ArrayUtils() {
+    }
+
     public static final char[] EMPTY_CHAR_ARRAY = new char[0];
 
     public static boolean isEmpty(boolean[] array) {
