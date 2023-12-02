@@ -1,4 +1,4 @@
-# mask-springboot-starter
+# yovvis-springboot-starter
 mask-springboot-starter core sdk
 ## 提交规范
  - [ ] feat: 新功能、新特性
