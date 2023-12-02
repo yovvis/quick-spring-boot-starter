@@ -1,7 +1,5 @@
 package com.yovvis.config.client;
 
-import com.yovvis.model.entity.User;
-
 /**
  * 客户端配置
  *
@@ -29,7 +27,7 @@ public class UserClient {
     }
 
     public String getUser() {
-        return "用户名称：" + userName + "\n\r" + "accessKey：" + accessKey + "\n\r" + "secretKey" + secretKey;
+        return "用户名称：" + userName + "\n\r" + "accessKey：" + accessKey + "\n\r" + "secretKey：" + secretKey;
     }
 
 }

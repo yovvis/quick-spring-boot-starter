@@ -13,17 +13,21 @@ import org.springframework.context.annotation.Configuration;
  * @author yovvis
  * @date 2023/12/2
  */
-@Data
+
 @Configuration
-@ConfigurationProperties("yovvis.user.client")
+@ConfigurationProperties("yovvis.client")
+@Data
 @ComponentScan
 public class UserClientConfig {
+
     private String userName;
+
     private String accessKey;
+
     private String secretKey;
 
     @Bean
-    public UserClient getUserClient() {
+    public UserClient UserClientConfig() {
         return new UserClient(userName, accessKey, secretKey);
     }
 }
