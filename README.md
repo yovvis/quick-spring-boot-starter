@@ -1,5 +1,5 @@
-# yovvis-core-sdk
-yovvis开发核心sdk
+# mask-springboot-starter
+mask-springboot-starter core sdk
 ## 提交规范
  - [ ] feat: 新功能、新特性
  - [ ] fix: 修改 bug
