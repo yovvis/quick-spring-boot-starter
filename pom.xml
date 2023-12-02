@@ -10,10 +10,10 @@
     </parent>
 
     <groupId>com.yovvis</groupId>
-    <artifactId>yovvis-core-sdk</artifactId>
+    <artifactId>yovvis-spring-boot-starter</artifactId>
     <version>1.0</version>
-    <name>yovvis-core-sdk</name>
-    <description>yovvis开发核心工具库(SDK)</description>
+    <name>yovvis-spring-boot-starter</name>
+    <description>yovvis-spring-boot-starter</description>
 
     <properties>
         <java.verson>1.8</java.verson>
@@ -25,13 +25,15 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -46,37 +48,37 @@
         </dependency>
 
     </dependencies>
-<!--    <build>-->
-<!--        <plugins>-->
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-assembly-plugin</artifactId>-->
-<!--                <version>3.3.0</version>-->
-<!--                <configuration>-->
-<!--&lt;!&ndash;                    <descriptorRefs>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <descriptorRef>jar-with-dependencies</descriptorRef>&ndash;&gt;-->
-<!--&lt;!&ndash;                    </descriptorRefs>&ndash;&gt;-->
-<!--                    <archive>-->
-<!--                        <manifest>-->
-<!--                            <mainClass>com.yovvis.Main</mainClass> &lt;!&ndash; 替换为你的主类的完整类名 &ndash;&gt;-->
-<!--                        </manifest>-->
-<!--                    </archive>-->
-<!--                </configuration>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <phase>package</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>single</goal>-->
-<!--                        </goals>-->
-<!--                        <configuration>-->
-<!--                            &lt;!&ndash; assembly.xml &ndash;&gt;-->
-<!--                            <descriptors>-->
-<!--                                <descriptor>${assembly}</descriptor>-->
-<!--                            </descriptors>-->
-<!--                        </configuration>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
-<!--        </plugins>-->
-<!--    </build>-->
+    <!--    <build>-->
+    <!--        <plugins>-->
+    <!--            <plugin>-->
+    <!--                <groupId>org.apache.maven.plugins</groupId>-->
+    <!--                <artifactId>maven-assembly-plugin</artifactId>-->
+    <!--                <version>3.3.0</version>-->
+    <!--                <configuration>-->
+    <!--&lt;!&ndash;                    <descriptorRefs>&ndash;&gt;-->
+    <!--&lt;!&ndash;                        <descriptorRef>jar-with-dependencies</descriptorRef>&ndash;&gt;-->
+    <!--&lt;!&ndash;                    </descriptorRefs>&ndash;&gt;-->
+    <!--                    <archive>-->
+    <!--                        <manifest>-->
+    <!--                            <mainClass>com.yovvis.Main</mainClass> &lt;!&ndash; 替换为你的主类的完整类名 &ndash;&gt;-->
+    <!--                        </manifest>-->
+    <!--                    </archive>-->
+    <!--                </configuration>-->
+    <!--                <executions>-->
+    <!--                    <execution>-->
+    <!--                        <phase>package</phase>-->
+    <!--                        <goals>-->
+    <!--                            <goal>single</goal>-->
+    <!--                        </goals>-->
+    <!--                        <configuration>-->
+    <!--                            &lt;!&ndash; assembly.xml &ndash;&gt;-->
+    <!--                            <descriptors>-->
+    <!--                                <descriptor>${assembly}</descriptor>-->
+    <!--                            </descriptors>-->
+    <!--                        </configuration>-->
+    <!--                    </execution>-->
+    <!--                </executions>-->
+    <!--            </plugin>-->
+    <!--        </plugins>-->
+    <!--    </build>-->
 </project>
