@@ -12,8 +12,16 @@ public class BigDecimalUtils {
     public BigDecimalUtils() {
     }
 
-    private static DecimalFormat df = new DecimalFormat("##.0");
+    /**
+     * 默认2位小数
+     */
+    private static DecimalFormat df = new DecimalFormat("##.00");
 
+    /**
+     * Double 转 String
+     * @param num
+     * @return
+     */
     public static String format(Double num) {
         if (num == null) {
             return "0.00";

@@ -31,6 +31,13 @@ public class StreamUtils {
         return array;
     }
 
+    /**
+     * 输入流转字符
+     *
+     * @param is
+     * @return
+     * @throws IOException
+     */
     public static String streamToByteString(InputStream is) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(is));
         StringBuffer buffer = new StringBuffer();

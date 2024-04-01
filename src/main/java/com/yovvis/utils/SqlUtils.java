@@ -1,5 +1,7 @@
 package com.yovvis.utils;
 
+import cn.hutool.core.util.StrUtil;
+
 /**
  * sql 工具类
  *
@@ -16,9 +18,9 @@ public class SqlUtils {
      * @return
      */
     public static boolean validSortField(String sortField) {
-        if (StringUtils.isBlank(sortField)) {
+        if (StrUtil.isBlank(sortField)) {
             return false;
         }
-        return !StringUtils.containsAny(sortField, "=", "(", ")", " ");
+        return !StrUtil.containsAny(sortField, "=", "(", ")", " ");
     }
 }
